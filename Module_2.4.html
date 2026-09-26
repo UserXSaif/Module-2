@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <style>
+
+        /* Element Selector */
+        p {
+            font-size: 18px;
+        }
+
+        /* Class Selector */
+        .title {
+            color: blue;
+        }
+
+        /* ID Selector */
+        #special {
+            color: red;
+        }
+
+        /* Descendant Selector */
+        div p {
+            background-color: lightgray;
+        }
+
+        /* Child Selector */
+        div > h2 {
+            color: green;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1 class="title">CSS Selector Example</h1>
+
+    <p>This is an element selector.</p>
+
+    <p id="special">This is an ID selector.</p>
+
+    <div>
+
+        <h2>Child Selector</h2>
+
+        <p>Descendant selector example.</p>
+
+        <section>
+            <p>This is also a descendant.</p>
+        </section>
+
+    </div>
+
+</body>
+</html>

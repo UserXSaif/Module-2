@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration</title>
+</head>
+<body>
+
+    <h1>University Course Registration Form</h1>
+
+    <form>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="id">Student ID:</label>
+        <input type="text" id="id" name="id" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="semester">Semester:</label>
+        <select id="semester" name="semester" required>
+            <option value="">Select Semester</option>
+            <option value="1st">1st Semester</option>
+            <option value="2nd">2nd Semester</option>
+            <option value="3rd">3rd Semester</option>
+            <option value="4th">4th Semester</option>
+        </select>
+        <br><br>
+
+        <p>Select Course:</p>
+
+        <input type="checkbox" id="web" name="course" value="web">
+        <label for="web">Web Programming</label>
+
+        <input type="checkbox" id="java" name="course" value="java">
+        <label for="java">Java Programming</label>
+
+        <input type="checkbox" id="database" name="course" value="database">
+        <label for="database">Database</label>
+
+        <br><br>
+
+        <label for="date">Registration Date:</label>
+        <input type="date" id="date" name="date" required>
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
